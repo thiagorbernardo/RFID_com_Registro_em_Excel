@@ -1,0 +1,40 @@
+:Author: Thiago Ramos Bernardo
+:Email: thiagorbernardo@hotmail.com
+:Date: 05/12/2018
+:Revision: 2.1
+:License: Privado; Projeto de TCC.
+
+= Project: Catraca Acionada por RFID com Registro em Excel
+
+== Step 1: Instalação
+
+For example:
+
+1. Abra a pasta PLX-DAQ e instale o programa plx_daq_install.exe
+2. Abra a pasta CP210x_Drivers_Windows e intale o CP210xVCPInstaller_x86 ou 
+CP210xVCPInstaller_x64 de acordo com as configurações do computador
+3. Configure as tags conforme no arquivo Tutorial.ino
+
+== Step 2: Montando o circuito
+
+Monte o circuito de acordo com as imagens presentes na pasta Circuito.
+
+== Step 3: Load the code
+
+1. Carregue o arquivo no arduino.
+
+=== Estrutura da pasta
+
+....
+ RFID_com_Registro_em_Excel              => Arduino sketch folder
+  ├── RFID_com_Registro_em_Excel.ino       => main Arduino file
+  ├── schematics.png      => (optional) an image of the required schematics
+  ├── layout.png          => (optional) an image of the layout
+  └── ReadMe.adoc         => this file
+....
+
+=== License
+Projeto open source desde que préviamente avisado ao autor.
+
+=== Contribuição
+Para contribuir com esse projeto por favor contate thiagorbernardo: https://github.com/thiagorbernardo
